@@ -129,7 +129,7 @@ const Home = () => {
             <Banner className="custom-container"/>
 
             <div className={homeCategoryClass}>
-                <Link to='women' className="flex flex-col gap-2 bg-custom-accent p-5 bg-womenwears md:row-span-2">
+                <Link to='products' className="flex flex-col gap-2 bg-custom-accent p-5 bg-womenwears md:row-span-2">
                     <p className="inline-block">
                         <span className="font-semibold bg-custom-orange text-white px-10">
                            {productCount('women')}
@@ -150,7 +150,7 @@ const Home = () => {
                     </UnorderList>
                 </Link>
 
-                <Link to='men' className="flex flex-col gap-2 bg-custom-accent p-5 bg-menwears">
+                <Link to='products' className="flex flex-col gap-2 bg-custom-accent p-5 bg-menwears">
                     <p className="inline-block">
                     <span className="font-semibold bg-custom-orange text-white px-10">
                             {productCount('men')}
