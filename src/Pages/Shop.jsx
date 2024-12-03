@@ -45,9 +45,7 @@ const Shop = () => {
     const filters = useMemo(() => (
         {
             category: ['men', 'women'],
-            type: ['t-shirt', 'jacket', 'coat', 'sweater', 'pajamas', 'handbag', 'sportwears', 'hat', 'shoes', 'glasses', 'watches'],
-            color: ['white', 'black', 'gray', 'green', 'red', 'yellow', 'blue'],
-            size: ['s', 'm', 'l', 'xl', 'xxl']
+            type: ['t-shirt', 'jacket', 'coat', 'sweater', 'pajamas', 'handbag', 'sportwears', 'hat', 'shoes', 'glasses', 'watches']
         }
     ), [])
 

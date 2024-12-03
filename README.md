@@ -34,7 +34,6 @@
 **Tasks**
 - Every link press will get the users to relative paths and pages like Product Details page, Wishlists, Cart, user profile, etc.
 - Checkbox filters to show filtered products for categories, types etc in shop page.
-- Selection fitlers for price, rating and discounted items in **Shop** Page.
 - Dropdown for each question in **Faq** page.
 - Buttons and Links for **Cart**, **WishList**, **Product Details**, **Blog Detail**
 - Navigate the user to the completed order page after they confrim their order.
