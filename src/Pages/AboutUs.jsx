@@ -72,7 +72,7 @@ const AboutUs = () => {
                     {team
                         .map(member => (
                             <div key={member.id} >
-                            <img src={member.imgUrl} alt="" className="h-full mx-auto"/>
+                            <img src={member.imgUrl} alt="" className="md:h-full mx-auto"/>
                             <p>{member.name}</p>
                             <p>{member.position}</p>
                         </div>
